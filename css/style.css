@@ -1,4 +1,4 @@
-#shape {
+.shape {
 	width: 0;
 	height: 0;
 	margin: 50px 0;
@@ -12,11 +12,10 @@
 	-o-transform: rotate(35deg);
 	-ms-transform: rotate(35deg);
 	position: relative;
-	top: 200px;
-	left:200px;
+	margin: 70px auto;
 
 }
-#shape:before{
+.shape:before{
 	height: 0;
 	width: 0;
 	position: absolute;
@@ -32,7 +31,7 @@
 	-o-transform: rotate(-35deg);
 	-ms-transform: rotate(-35deg);
 }
-#shape:after{
+.shape:after{
 	content: '';
 	width: 0;
 	height: 0;
