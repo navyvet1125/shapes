@@ -48,3 +48,9 @@
 	-o-transform: rotate(-70deg);
 	-ms-transform: rotate(-70deg);	
 }
+
+.Heading {
+	color: grey;
+	font-size: 40px;
+	text-align: center;
+}
